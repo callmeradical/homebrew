@@ -36,20 +36,38 @@
                   {
                     "type": "list",
                     "items": [
-                      "You gain a +1 bonus to attack rolls you make with a spear.",
+                      "Spears you wield gain the finese property",
                       "When you use a spear, its damage die changes from a d6 to a d8, and from a d8 to a d10 when wielded with two hands. (This benefit has no effect if another feature has already improved the weapon's die.)",
                       "You can set your spear to receive a charge. As a bonus action, choose a creature you can see that is at least 20 feet away from you. If that creature moves within your spear's reach on its next turn, you can make a melee attack against it with your spear as a reaction. If the attack hits, the target takes an extra 1d8 piercing damage, or an extra 1d10 piercing damage if you wield the spear with two hands. You can't use this ability if the creature used the Disengage action before moving.",
-                      "As a bonus action on your turn, you can increase your reach with a spear by 7 feet for the rest of your turn."
-
+                      "As a bonus action on your turn, you can increase your reach with a spear by 10 feet for the rest of your turn."
                     ]
                   }
                 ]
               },
               {
                 "type": "entries",
-                "name": "Gunsmith",
+                "name": "Combat Superiority",
                 "entries": [
-                  "Upon choosing this archetype at 3rd level, you gain proficiency with Tinker's Tools. You may use them to craft ammunition, repair damaged firearms, or even draft and create new ones (DM's discretion). Some extremely intricate and experimental firearms are only available through crafting."
+                  {
+                    "type": "list",
+                    "items": [
+                      "You can look into the characteristics of your opponent, make an Wisdom(Insight)check contested by the creatures Deception, you can expend one superiority die to bolster the check. Add half the number rolled on the superiority die (rounding up) to your check. You apply this bonus after making the check but before learning if it was successful.",
+                      {
+                        "type": "list",
+                        "items": [
+                          "Strength score",
+                          "Dexterity score",
+                          "Constitution score",
+                          "Armor Class",
+                          "Current hit points",
+                          "Total class levels (if any)",
+                          "Fighter class levels (if any)"
+                        ]
+                      },
+                      "When you choose this archetype at 3rd level, you learn maneuvers that are fueled by special dice called superiority dice.",
+                      "When you make a weapon attack against a creature, you can expend one superiority die to add it to the attack roll. You can use this ability before or after making the attack roll, but before any of the effects of the attack are applied. If you are hit by an attack while wearing light or medium armor, you can expend one superiority die as a reaction, adding the number rolled to your AC. If the attack still hits, you take half damage from it."
+                    ]
+                  }
                 ]
               },
               {
