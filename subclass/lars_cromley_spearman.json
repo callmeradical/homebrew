@@ -46,10 +46,18 @@
                 "type": "entries",
                 "name": "Combat Superiority",
                 "entries": [
+                  "At 3rd level, you gain a set of abilities that are fueled by special dice called superiority dice.",
+                  {
+                    "type": "entries",
+                    "name": "Superiority Dice",
+                    "entries": [
+                      "You have four superiority dice, which are d8s. A superiority die is expended when you use it. You regain all of your expended superiority dice when you finish a long or short rest. You gain another superiority die at 10th level and one more at 15th level."
+                    ]
+                  },
                   {
                     "type": "list",
                     "items": [
-                      "You can look into the characteristics of your opponent, make an Wisdom(Insight)check contested by the creatures Deception, you can expend one superiority die to bolster the check. Add half the number rolled on the superiority die (rounding up) to your check. You apply this bonus after making the check but before learning if it was successful.",
+                      "You can look into the characteristics of your opponent, make an Wisdom(Insight)check contested by the creatures Deception, you can expend one superiority die to bolster the check. Add half the number rolled on the superiority die (rounding up) to your check. You apply this bonus after making the check but before learning if it was successful. The DM tells you if the creature is your equal, superior, or inferior in regard to two of the following characteristics of your choice:",
                       {
                         "type": "list",
                         "items": [
@@ -62,283 +70,8 @@
                           "Fighter class levels (if any)"
                         ]
                       },
-                      "When you choose this archetype at 3rd level, you learn maneuvers that are fueled by special dice called superiority dice.",
-                      "When you make a weapon attack against a creature, you can expend one superiority die to add it to the attack roll. You can use this ability before or after making the attack roll, but before any of the effects of the attack are applied. If you are hit by an attack while wearing light or medium armor, you can expend one superiority die as a reaction, adding the number rolled to your AC. If the attack still hits, you take half damage from it."
-                    ]
-                  }
-                ]
-              },
-              {
-                "type": "entries",
-                "name": "Firearms: Ammunition",
-                "entries": [
-                  "All firearms require ammunition to make an attack, and due to their rare nature, ammunition may be near impossible to find or purchase. However, if materials are gathered, you can craft ammunition yourself using your Tinker's Tools at half the cost. Each firearm uses its own unique ammunition and is generally sold or crafted in batches listed next to the price."
-                ]
-              },
-              {
-                "type": "entries",
-                "name": "Firearms: Firearm Properties",
-                "entries": [
-                  "Firearms are a new and volatile technology, and as such bring their own unique set of weapon properties. Some properties are followed by a number, and this number signifies an element of that property (outlined below). These properties replace the optional ones presented in the Dungeon Master's Guide. Firearms are ranged weapons.",
-                  {
-                    "type": "entries",
-                    "name": "Reload",
-                    "entries": [
-                      "The weapon can be fired a number of times equal to its Reload score before you must spend 1 attack or 1 action to reload. You must have one free hand to reload a firearm."
-                    ]
-                  },
-                  {
-                    "type": "entries",
-                    "name": "Misfire",
-                    "entries": [
-                      "Whenever you make an attack roll with a firearm, and the dice roll is equal to or lower than the weapon's Misfire score, the weapon misfires. The attack misses, and the weapon cannot be used again until you spend an action to try and repair it. To repair your firearm, you must make a successful Tinker's Tools check (DC equal to 8 + misfire score). If your check fails, the weapon is broken and must be repaired out of combat at half the cost of the firearm. Creatures who use a firearm without being proficient increase the weapon's misfire score by 1."
-                    ]
-                  },
-                  {
-                    "type": "entries",
-                    "name": "Explosive",
-                    "entries": [
-                      "Upon a hit, everything within 5 ft of the target must make a Dexterity saving throw (DC equal to 8 + your proficiency bonus + your Dexterity modifier) or suffer 1d8 fire damage. If the weapon misses, the ammunition fails to detonate, or bounces away harmlessly before doing so."
-                    ]
-                  },
-                  {
-                    "type": "table",
-                    "caption": "Firearms",
-                    "colLabels": [
-                      "Name",
-                      "Cost",
-                      "Ammo",
-                      "Damage",
-                      "Weight",
-                      "Range",
-                      "Properties"
-                    ],
-                    "colStyles": [
-                      "col-xs-2",
-                      "col-xs-1",
-                      "col-xs-2",
-                      "col-xs-2",
-                      "col-xs-1 text-align-right",
-                      "col-xs-1",
-                      "col-xs-4"
-                    ],
-                    "rows": [
-                      [
-                        "Palm Pistol",
-                        "50g",
-                        "2g (20)",
-                        "1d8 piercing",
-                        "1 lbs",
-                        "(40/160)",
-                        "Light, Reload 1, misfire 1"
-                      ],
-                      [
-                        "Pistol",
-                        "150g",
-                        "4g (20)",
-                        "1d10 piercing",
-                        "3 lbs",
-                        "(60/240)",
-                        "Reload 4, misfire 1"
-                      ],
-                      [
-                        "Musket",
-                        "300g",
-                        "5g (20)",
-                        "1d12 piercing",
-                        "10 lbs",
-                        "(120/480)",
-                        "Two-handed, reload 1, misfire 2"
-                      ],
-                      [
-                        "Pepperbox",
-                        "250g",
-                        "4g (20)",
-                        "1d10 piercing",
-                        "5 lbs",
-                        "(80/320)",
-                        "Reload 6, misfire 2"
-                      ],
-                      [
-                        "Blunderbuss",
-                        "300g",
-                        "5g (5)",
-                        "2d8 piercing",
-                        "10 lbs",
-                        "(15/60)",
-                        "Reload 1, misfire 2"
-                      ],
-                      [
-                        "Bad News",
-                        "Crafted",
-                        "10g (5)",
-                        "2d12 piercing",
-                        "25 lbs",
-                        "(200/800)",
-                        "Two-handed, reload 1, misfire 3"
-                      ],
-                      [
-                        "Hand Mortar",
-                        "Crafted",
-                        "10g (1)",
-                        "2d8 fire",
-                        "10 lbs",
-                        "(30/60)",
-                        "Reload 1, misfire 3, explosive"
-                      ]
-                    ]
-                  }
-                ]
-              },
-              {
-                "type": "entries",
-                "name": "Adept Marksman",
-                "entries": [
-                  "When you choose this archetype at 3rd level, you learn to perform powerful trick shots to disable or damage your opponent using your firearms.",
-                  {
-                    "type": "entries",
-                    "entries": [
-                      {
-                        "type": "entries",
-                        "name": "Trick Shots",
-                        "entries": [
-                          "You learn two trick shots of your choice, which are detailed under \"Trick Shots\" below. Many trick shots enhance an attack in some way. Each use of a trick shot must be declared before the attack roll is made. You can use only one trick shot per attack.",
-                          "You learn an additional trick shot of your choice at 7th, 10th, 15th and 18th level. Each time you learn a new trick shot, you can also replace one trick shot you know with a different one."
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "type": "entries",
-                    "entries": [
-                      {
-                        "type": "entries",
-                        "name": "Grit",
-                        "entries": [
-                          "You gain a number of grit points equal to your Wisdom modifier (minimum of 1). You regain 1 expended grit point each time you roll a 20 on the d20 roll for an attack with a firearm, or deal a killing blow with a firearm to a creature of significant threat (DM's discretion). You regain all expended grit points after a short or long rest."
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "type": "entries",
-                    "entries": [
-                      {
-                        "type": "entries",
-                        "name": "Saving Throws",
-                        "entries": [
-                          "Some of your trick shots require your targets to make a saving throw to resist the trick shot's effects. The saving throw DC is calculated as follows:",
-                          {
-                            "type": "abilityDc",
-                            "name": "Trick Shot",
-                            "attributes": [
-                              "dex"
-                            ]
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "type": "options",
-                "name": "Gunslinger: Trick Shots",
-                "entries": [
-                  {
-                    "type": "entries",
-                    "entries": [
-                      {
-                        "type": "entries",
-                        "name": "Bullying Shot",
-                        "entries": [
-                          "You can use the powerful blast and thundering sound of your firearm to shake the resolve of a creature. When making a Charisma (Intimidation) check, you can expend one grit point to gain advantage on the roll."
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "type": "entries",
-                    "entries": [
-                      {
-                        "type": "entries",
-                        "name": "Dazing Shot",
-                        "entries": [
-                          "When you make a firearm attack against a creature, you can expend one grit point to attempt to dizzy your opponent. On a hit, the creature suffers normal damage and must make a Constitution saving throw or suffer disadvantage on attacks until the end of their next turn."
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "type": "entries",
-                    "entries": [
-                      {
-                        "type": "entries",
-                        "name": "Deadeye Shot",
-                        "entries": [
-                          "When you make a firearm attack against a creature, you can expend one grit point to gain advantage on the attack roll."
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "type": "entries",
-                    "entries": [
-                      {
-                        "type": "entries",
-                        "name": "Disarming Shot",
-                        "entries": [
-                          "When you make a firearm attack against a creature, you can expend one grit point to attempt to shoot an object from their hands. On a hit, the creature suffers normal damage and must succeed on a Strength saving throw or drop 1 held object of your choice and have that object be pushed 10 feet away from you."
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "type": "entries",
-                    "entries": [
-                      {
-                        "type": "entries",
-                        "name": "Forceful Shot",
-                        "entries": [
-                          "When you make a firearm attack against a creature, you can expend one grit point to attempt to trip them up and force them back. On a hit, the creature suffers normal damage and must succeed on a Strength saving throw or be pushed 15 feet away from you."
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "type": "entries",
-                    "entries": [
-                      {
-                        "type": "entries",
-                        "name": "Piercing Shot",
-                        "entries": [
-                          "When you make a firearm attack against a creature, you can expend one grit point to attempt to fire through multiple opponents. The initial attack gains a +1 to the firearm's misfire score. On a hit, the creature suffers normal damage and you make an attack roll with disadvantage against every creature in a line directly behind the target within your first range increment. Only the initial attack can misfire."
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "type": "entries",
-                    "entries": [
-                      {
-                        "type": "entries",
-                        "name": "Winging Shot",
-                        "entries": [
-                          "When you make a firearm attack against a creature, you can expend one grit point to attempt to topple a moving target. On a hit, the creature suffers normal damage and must make a Strength saving throw or be knocked {@condition prone}."
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "type": "entries",
-                    "entries": [
-                      {
-                        "type": "entries",
-                        "name": "Violent Shot",
-                        "entries": [
-                          "When you make a firearm attack against a creature, you can expend one or more grit points to enhance the volatility of the attack. For each grit point expended, the attack gains a +2 to the firearm's misfire score. If the attack hits, you can roll one additional weapon damage die per grit point spent when determining the damage."
-                        ]
-                      }
+                      "When you make a weapon attack against a creature, you can expend one superiority die to add it to the attack roll. You can use this ability before or after making the attack roll, but before any of the effects of the attack are applied.",
+                      "If you are hit by an attack while wearing light or medium armor, you can expend one superiority die as a reaction, adding the number rolled to your AC. If the attack still hits, you take half damage from it."
                     ]
                   }
                 ]
@@ -351,9 +84,9 @@
             "entries": [
               {
                 "type": "entries",
-                "name": "Quickdraw",
+                "name": "Silverstep",
                 "entries": [
-                  "When you reach 7th level, you add your proficiency bonus to your initiative. You can also stow a firearm, then draw another firearm as a single object interaction on your turn. "
+                  "While wielding a spear when make an attack, you can choose to perform a special maneuver. That attack deals 1 additional damage die, and the creature is moved 5 feet away from you. You can use this feature a number of times equal to your Dexterity modifier (a minimum of once), you regain all expended uses when you finish a long rest."
                 ]
               }
             ]
@@ -364,9 +97,23 @@
             "entries": [
               {
                 "type": "entries",
-                "name": "Rapid Repair",
+                "name": "Combat Maneuvers",
                 "entries": [
-                  "Upon reaching 10th level, you learn how to quickly attempt to fix a jammed gun. You can spend a grit point to attempt to repair a misfired (but not broken) firearm as a bonus action."
+                  "At 10th level you learn two maneuvers of your choice, which are chosen from the list of maneuvers available to fighters with the Battle Master archetype. Many maneuvers enhance an attack in some way. You can use only one maneuver per attack."
+                ]
+              },
+              {
+                "type": "entries",
+                "name": "Improved Combat Superiority (D10)",
+                "entries":[
+                  "At 10th level, your superiority dice turn into d10s."
+                ]
+              },
+              {
+                "type": "entries",
+                "name": "Additional Superiority Die",
+                "entries": [
+                  "You get an additional superiority die at 10th level"
                 ]
               }
             ]
@@ -377,9 +124,16 @@
             "entries": [
               {
                 "type": "entries",
-                "name": "Lightning Reload",
+                "name": "Additional Superiority Die",
                 "entries": [
-                  "Starting at 15th level, you can reload any firearm as a bonus action."
+                  "You get an additional superiority die at 15th level"
+                ]
+              },
+              {
+                "type": "entries",
+                "name": "Relentless",
+                "entries": [
+                  "Starting at 15th level, when you roll initiative and have no superiority dice remaining, you regain 1 superiority die."
                 ]
               }
             ]
@@ -390,16 +144,16 @@
             "entries": [
               {
                 "type": "entries",
-                "name": "Vicious Intent",
+                "name": "Improved Combat Superiority (D12)",
                 "entries": [
-                  "At 18th level, your firearm attacks score a critical hit on a roll of 19-20, and you regain a grit point on a roll of 19 or 20 on a d20 attack roll."
+                  "At 18th level, your superiority dice turn into d12s."
                 ]
               },
               {
                 "type": "entries",
                 "name": "Hemorrhaging Critical",
                 "entries": [
-                  "Upon reaching 18th level, whenever you score a critical hit on an attack with a firearm, the target additionally suffers half of the damage from the attack at the end of its next turn."
+                  "Upon reaching 18th level, whenever you score a critical hit on an attack with a spear, the target additionally suffers half of the damage from the attack at the end of its next turn."
                 ]
               }
             ]
