@@ -17,6 +17,145 @@
 	},
 	"monster": [
     {
+			"name": "Algarel's Sentinel",
+			"size": "L",
+			"type": "construct",
+			"source": "FitN",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"natural armor"
+					]
+				},
+				{
+					"ac": 20,
+					"from": [
+						"natural armor"
+					],
+					"condition": "only in ball form"
+				}
+			],
+			"hp": {
+				"average": 231,
+				"formula": "22d10 + 110"
+			},
+			"speed": {
+				"walk": 40,
+				"condition": "( 60 ft. in ball form.)"
+			},
+			"str": 22,
+			"dex": 9,
+			"con": 20,
+			"int": 3,
+			"wis": 11,
+			"cha": 1,
+			"passive": 10,
+			"languages": "understands the languages of its creator but can't speak",
+			"cr": "16",
+			"trait": [
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If the juggernaut fails a saving throw, it can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Immutable Form",
+					"entries": [
+						"The juggernaut is immune to any spell or effect that would alter its form."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The juggernaut has advantage on saving throws against spells and other magical effects."
+					]
+				},
+        {
+          "name": "Magic Weapons",
+          "entries": [
+            "The juggernaut's weapon attacks are magical."
+          ]
+        },
+        {
+          "name": "Antimagic Cone",
+          "entries": [
+            "The juggernaut's central control gem creates an rea of antimagic, as in the antimagic field spell, in a 150-foot cone. At the start of each of its turns, the juggernaut decides which way the cone faces and whether the cone is active. The area works against it's own magic abilities."
+          ]
+        },
+				{
+					"name": "Charge (only while in ball form)",
+					"entries": [
+						"If the juggernaut moves at least 10 ft. straight toward a target and then hits it with a slam attack on the same turn, the target takes an extra 12 (3d8) bludgeoning damage. If the target is a creature, it must succeed on a DC 17 Strength saving throw or be pushed up to 10 ft. away and knocked prone."
+					]
+				},
+				{
+					"name": "Deploy Pentadrones 2/day",
+					"entries": [
+						"Deploys 1d4 Pentadrones"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The juggernaut makes two attacks with two slams or two rocks."
+					]
+				},
+				{
+					"name": "Slam",
+					"entries": [
+						"{@atk mw} {@hit +10} to hit, reach 10 ft., one creature. {@h}19 ({@damage 5d8 + 6}) damage."
+					]
+				},
+				{
+					"name": "Rock",
+					"entries": [
+						"{@atk rw} {@hit +10} to hit, range 60/240 ft., one creature. {@h}28 ({@damage 6d10 + 6}) damage."
+					]
+				},
+        {
+          "name": "Paralysis Gas (Recharge 5-6)",
+          "entries": [
+							"The juggernaut sprays gas in a 20-foot radius around it. Each creature in that area must succeed on a DC 17 Constitution saving throw or be paralyzed for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+          ]
+        }
+			],
+			"legendary": [
+				{
+					"name": "Deploy Pentadrones (Costs 2 Actions)",
+					"entries": [
+						"Deploys 1d4 Pentadrones to the battlefield."
+					]
+				},
+				{
+					"name": "Slam",
+					"entries": [
+						"Makes a slam attack."
+					]
+				},
+				{
+					"name": "Rock",
+					"entries": [
+						"Makes a ranged attack with a rock."
+					]
+				}
+			],
+			"tokenURL": "https://raw.githubusercontent.com/callmeradical/homebrew/master/_img/clockwork_juggernaut.png",
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTag": [
+				"C",
+				"AB"
+			]
+		},
+    {
 			"name": "Clockwork Juggernaut",
 			"size": "L",
 			"type": "construct",
@@ -55,7 +194,7 @@
 			"cha": 1,
 			"passive": 10,
 			"languages": "understands the languages of its creator but can't speak",
-			"cr": "12",
+			"cr": "11",
 			"trait": [
 				{
 					"name": "Immutable Form",
@@ -73,12 +212,6 @@
           "name": "Magic Weapons",
           "entries": [
             "The juggernaut's weapon attacks are magical."
-          ]
-        },
-        {
-          "name": "Antimagic Cone",
-          "entries": [
-            "The juggernaut's central control gem creates an rea of antimagic, as in the antimagic field spell, in a 150-foot cone. At the start of each of its turns, the juggernaut decides which way the cone faces and whether the cone is active. The area works against it's own magic abilities."
           ]
         },
 				{
