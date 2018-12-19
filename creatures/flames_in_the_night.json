@@ -1,0 +1,120 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "Flames in the Night",
+				"abbreviation": "FitN",
+				"full": "Flames in the Night Beastiary (5e)",
+				"authors": [
+					"Lars Cromley"
+				],
+				"version": "1.0",
+				"url": "https://github.com/callmeradical/homebrew",
+				"targetSchema": "1.3.4"
+			}
+		],
+		"dateAdded": 1537874753
+	},
+	"monster": [
+    {
+			"name": "Rust Golem",
+			"size": "L",
+			"type": "construct",
+			"source": "FitN",
+			"alignment": [
+				"L",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"{@spell mage armor}"
+					]
+				}
+			],
+			"hp": {
+				"average": 178,
+				"formula": "17d10 + 18"
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 22,
+			"dex": 9,
+			"con": 20,
+			"int": 3,
+			"wis": 11,
+			"cha": 1,
+			"passive": 10,
+			"languages": "understands the languages of its creator but can't speak",
+			"cr": "",
+			"trait": [
+				{
+					"name": "Immutable Form",
+					"entries": [
+						"The golem is immune to any spell or effect that would alter its form."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The golem has advantage on saving throws against spells and other magical effects."
+					]
+				},
+        {
+          "name": "Magic Weapons",
+          "entries": [
+            "The golem's weapon attacks are magical."
+          ]
+        },
+        {
+          "name": "Antimagic Cone",
+          "entries": [
+            "The golem's central control gem creates an rea of antimagic, as in the antimagic field spell, in a 150-foot cone. At the start of each of its turns, the golem decides which way the cone faces and whether the cone is active. The area works against it's own magic abilities."
+          ]
+        },
+        {
+          "name": "Iron Scent",
+          "entries": [
+            "The golem can pinpoint, by scent, the location of ferrous metal within 30 feet of it."
+          ]
+        },
+        {
+          "name": "Rust Metal",
+          "entries": [
+            "Any nonmagical weapon made of metal that hits the rust monster corrodes. After dealing damage, the weapon takes a permanent and cumulative −1 penalty to damage rolls. If its penalty drops to −5, the weapon is destroyed. Non magical ammunition made of metal that hits the rust monster is destroyed after dealing damage."
+          ]
+        }
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The golem makes two attacks with it's appendages."
+					]
+				},
+				{
+					"name": "Scimitar",
+					"entries": [
+						"{@atk mw} {@hit +4} to hit, reach 5 ft., one creature. {@h}5 ({@damage 1d6 + 2}) slashing damage."
+					]
+				},
+        {
+          "name": "Slow (Recharge 5-6)",
+          "entries": [
+              "The golem targets one or more creatures it can see within 10 feet of it. Each target must make a DC 17 Wisdom saving throw against this magic. On a failed save, a target can't use reactions, its speed is halved, and it can't make more than one attack on its turn. In addition, the target can take either an action or a bonus action on its turn, not both. These effects last for 1 minute. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. "
+          ]
+        }
+			],
+			"tokenURL": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF%20(3pp)/Aaztar-Ghola.png",
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTag": [
+				"C",
+				"AB"
+			]
+		}
+	]
+}
