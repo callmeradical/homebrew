@@ -39,7 +39,7 @@
 			},
 			"speed": {
 				"walk": 40,
-				"roll": 80,
+				"roll": 80
 			},
 			"str": 22,
 			"dex": 9,
