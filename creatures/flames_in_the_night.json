@@ -40,8 +40,8 @@
 				}
 			],
 			"hp": {
-				"average": 178,
-				"formula": "17d10 + 18"
+				"average": 231,
+				"formula": "22d10 + 110"
 			},
 			"speed": {
 				"walk": 40,
@@ -55,7 +55,7 @@
 			"cha": 1,
 			"passive": 10,
 			"languages": "understands the languages of its creator but can't speak",
-			"cr": "",
+			"cr": "12",
 			"trait": [
 				{
 					"name": "Immutable Form",
@@ -84,7 +84,7 @@
 				{
 					"name": "Charge (only while in ball form)",
 					"entries": [
-						"If the juggernaut moves at least 10 ft. straight toward a target and then hits it with a slam attack on the same turn, the target takes an extra 12 (2d8) bludgeoning damage. If the target is a creature, it must succeed on a DC 15 Strength saving throw or be pushed up to 10 ft. away and knocked prone."
+						"If the juggernaut moves at least 10 ft. straight toward a target and then hits it with a slam attack on the same turn, the target takes an extra 12 (3d8) bludgeoning damage. If the target is a creature, it must succeed on a DC 17 Strength saving throw or be pushed up to 10 ft. away and knocked prone."
 					]
 				}
 			],
@@ -98,13 +98,13 @@
 				{
 					"name": "Slam",
 					"entries": [
-						"{@atk mw} {@hit +10} to hit, reach 10 ft., one creature. {@h}19 ({@damage 3d8 + 6}) damage."
+						"{@atk mw} {@hit +10} to hit, reach 10 ft., one creature. {@h}19 ({@damage 5d8 + 6}) damage."
 					]
 				},
 				{
 					"name": "Rock",
 					"entries": [
-						"{@atk rw} {@hit +10} to hit, range 60/240 ft., one creature. {@h}28 ({@damage 4d10 + 6}) damage."
+						"{@atk rw} {@hit +10} to hit, range 60/240 ft., one creature. {@h}28 ({@damage 6d10 + 6}) damage."
 					]
 				},
         {
