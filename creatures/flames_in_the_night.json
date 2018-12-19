@@ -2,14 +2,14 @@
 	"_meta": {
 		"sources": [
 			{
-				"json": "Flames in the Night",
+				"json": "FlamesInTheNight",
 				"abbreviation": "FitN",
 				"full": "Flames in the Night Beastiary (5e)",
 				"authors": [
 					"Lars Cromley"
 				],
-				"version": "1.0",
-				"url": "https://github.com/callmeradical/homebrew",
+				"version": "1.1",
+				"url": "NA",
 				"targetSchema": "1.3.4"
 			}
 		],
@@ -22,7 +22,6 @@
 			"type": "construct",
 			"source": "FitN",
 			"alignment": [
-				"L",
 				"N"
 			],
 			"ac": [
