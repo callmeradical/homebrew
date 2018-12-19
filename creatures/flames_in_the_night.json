@@ -31,12 +31,6 @@
 					"from": [
 						"natural armor"
 					]
-				},
-				{
-					"ac": 20,
-					"from": [
-						"ball form"
-					]
 				}
 			],
 			"hp": {
