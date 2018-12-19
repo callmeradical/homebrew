@@ -17,7 +17,7 @@
 	},
 	"monster": [
     {
-			"name": "Rust Golem",
+			"name": "Clockwork Juggernaut",
 			"size": "L",
 			"type": "construct",
 			"source": "FitN",
@@ -31,6 +31,12 @@
 					"from": [
 						"natural armor"
 					]
+				},
+				{
+					"ac": 20,
+					"from": [
+						"ball form"
+					]
 				}
 			],
 			"hp": {
@@ -38,7 +44,8 @@
 				"formula": "17d10 + 18"
 			},
 			"speed": {
-				"walk": 40
+				"walk": 40,
+				"roll": 80,
 			},
 			"str": 22,
 			"dex": 9,
@@ -53,61 +60,61 @@
 				{
 					"name": "Immutable Form",
 					"entries": [
-						"The golem is immune to any spell or effect that would alter its form."
+						"The juggernaut is immune to any spell or effect that would alter its form."
 					]
 				},
 				{
 					"name": "Magic Resistance",
 					"entries": [
-						"The golem has advantage on saving throws against spells and other magical effects."
+						"The juggernaut has advantage on saving throws against spells and other magical effects."
 					]
 				},
         {
           "name": "Magic Weapons",
           "entries": [
-            "The golem's weapon attacks are magical."
+            "The juggernaut's weapon attacks are magical."
           ]
         },
         {
           "name": "Antimagic Cone",
           "entries": [
-            "The golem's central control gem creates an rea of antimagic, as in the antimagic field spell, in a 150-foot cone. At the start of each of its turns, the golem decides which way the cone faces and whether the cone is active. The area works against it's own magic abilities."
+            "The juggernaut's central control gem creates an rea of antimagic, as in the antimagic field spell, in a 150-foot cone. At the start of each of its turns, the juggernaut decides which way the cone faces and whether the cone is active. The area works against it's own magic abilities."
           ]
         },
-        {
-          "name": "Iron Scent",
-          "entries": [
-            "The golem can pinpoint, by scent, the location of ferrous metal within 30 feet of it."
-          ]
-        },
-        {
-          "name": "Rust Metal",
-          "entries": [
-            "Any nonmagical weapon made of metal that hits the rust monster corrodes. After dealing damage, the weapon takes a permanent and cumulative −1 penalty to damage rolls. If its penalty drops to −5, the weapon is destroyed. Non magical ammunition made of metal that hits the rust monster is destroyed after dealing damage."
-          ]
-        }
+				{
+					"name": "Charge (only while in ball form)",
+					"entries": [
+						"If the juggernaut moves at least 10 ft. straight toward a target and then hits it with a slam attack on the same turn, the target takes an extra 12 (2d8) bludgeoning damage. If the target is a creature, it must succeed on a DC 15 Strength saving throw or be pushed up to 10 ft. away and knocked prone."
+					]
+				}
 			],
 			"action": [
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The golem makes two attacks with it's appendages."
+						"The juggernaut makes two attacks with two slams or two rocks."
 					]
 				},
 				{
-					"name": "Scimitar",
+					"name": "Slam",
 					"entries": [
-						"{@atk mw} {@hit +4} to hit, reach 5 ft., one creature. {@h}5 ({@damage 1d6 + 2}) slashing damage."
+						"{@atk mw} {@hit +10} to hit, reach 10 ft., one creature. {@h}19 ({@damage 3d8 + 6}) damage."
+					]
+				},
+				{
+					"name": "Rock",
+					"entries": [
+						"{@atk rw} {@hit +10} to hit, range 60/240 ft., one creature. {@h}28 ({@damage 4d10 + 6}) damage."
 					]
 				},
         {
-          "name": "Slow (Recharge 5-6)",
+          "name": "Paralysis Gas (Recharge 5-6)",
           "entries": [
-              "The golem targets one or more creatures it can see within 10 feet of it. Each target must make a DC 17 Wisdom saving throw against this magic. On a failed save, a target can't use reactions, its speed is halved, and it can't make more than one attack on its turn. In addition, the target can take either an action or a bonus action on its turn, not both. These effects last for 1 minute. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. "
+							"The juggernaut sprays gas in a 20-foot radius around it. Each creature in that area must succeed on a DC 17 Constitution saving throw or be paralyzed for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
           ]
         }
 			],
-			"tokenURL": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF%20(3pp)/Aaztar-Ghola.png",
+			"tokenURL": "https://raw.githubusercontent.com/callmeradical/homebrew/master/_img/clockwork_juggernaut.png",
 			"actionTags": [
 				"Multiattack"
 			],
