@@ -31,6 +31,13 @@
 					"from": [
 						"natural armor"
 					]
+				},
+				{
+					"ac": 20,
+					"from": [
+						"natural armor"
+					],
+					"condition": "only in ball form"
 				}
 			],
 			"hp": {
@@ -39,7 +46,7 @@
 			},
 			"speed": {
 				"walk": 40,
-				"roll": 80
+				"condition": "( 60 ft. in ball form.)"
 			},
 			"str": 22,
 			"dex": 9,
