@@ -130,7 +130,7 @@
 				{
 					"name": "Deploy Pentadrones (Costs 2 Actions)",
 					"entries": [
-						"Deploys 1d4 Pentadrones to the battlefield."
+						"Deploys Up to 6 Pentadrones to the battlefield."
 					]
 				},
 				{
@@ -218,6 +218,12 @@
 					"name": "Charge (only while in ball form)",
 					"entries": [
 						"If the juggernaut moves at least 10 ft. straight toward a target and then hits it with a slam attack on the same turn, the target takes an extra 12 (3d8) bludgeoning damage. If the target is a creature, it must succeed on a DC 17 Strength saving throw or be pushed up to 10 ft. away and knocked prone."
+					]
+				},
+				{
+					"name": "Pentadrone Dispersal",
+					"entries": [
+						"The juggernaut carries pentadrones on it's carapace/armor. It can distribute up to 6 Pentadrones."
 					]
 				}
 			],
